@@ -258,7 +258,7 @@ export class NgxSmartModalComponent implements OnInit, OnDestroy, AfterViewCheck
   /**
    * Retrieve the data attached to the modal instance
    */
-  public getData(): unknown {
+  public getData(): any {
     this.assignComponentDataToModalData(this._componentRef);
     return this._data;
   }
