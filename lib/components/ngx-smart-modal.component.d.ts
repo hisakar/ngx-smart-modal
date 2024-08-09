@@ -109,7 +109,7 @@ export declare class NgxSmartModalComponent implements OnInit, OnDestroy, AfterV
     /**
      * Retrieve the data attached to the modal instance
      */
-    getData(): unknown;
+    getData(): any;
     /**
      * Remove the data attached to the modal instance
      *
