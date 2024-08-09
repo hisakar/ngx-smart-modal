@@ -1,8 +1,7 @@
-export const NgxSmartModalConfig = {
-    bodyClassOpen: 'dialog-open',
-    prefixEvent: 'ngx-smart-modal.'
+export declare const NgxSmartModalConfig: {
+    bodyClassOpen: string;
+    prefixEvent: string;
 };
-
 export interface INgxSmartModalOptions {
     closable?: boolean;
     escapable?: boolean;
